@@ -1,0 +1,7 @@
+# pip install -r requirements.txt
+
+dlt
+requests
+google-cloud-bigquery
+google-cloud-bigquery-storage
+pandas

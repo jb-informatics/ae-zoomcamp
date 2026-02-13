@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data sources for NYC taxi rides"
+    database: de-zoomcamp-terraform-484919 # GCP Project ID
+    schema: nyc_taxi_dataset # BigQuery dataset name
+    tables:
+      - name: yellow_tripdata_2019
+      - name: yellow_tripdata_2020
+      - name: green_tripdata_2019
+      - name: green_tripdata_2020
+  

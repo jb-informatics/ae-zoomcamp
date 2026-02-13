@@ -1,5 +1,5 @@
 # Data Engineering Zoomcamp
-This is module 4 of the Data Engineering Zoomcamp focused on analytics engineering.
+This is module 4 of the Data Engineering Zoomcamp focused on analytics engineering using dbt.
 
 ### Install dependencies
 ```
@@ -10,9 +10,9 @@ pip install -r requirements.txt
 This module focuses on yellow and green taxi data (2019-2020).
 
 Available arguments:
---years → One or more years (e.g., 2019 2020)
---months → One or more months (space-separated or comma-separated)
---taxi → Taxi type: yellow or green
+* --years → One or more years (e.g., 2019 2020)
+* --months → One or more months (space-separated or comma-separated)
+* --taxi → Taxi type: yellow or green
 
 To ingest all data from 2019-2020:
 ```

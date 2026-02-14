@@ -37,7 +37,7 @@ pipeline_gcs = dlt.pipeline(
 # -----------------------------
 # List of months to fetch
 # -----------------------------
-months = range(5, 13)
+months = range(1, 13)
 
 # -----------------------------
 # Process one month at a time

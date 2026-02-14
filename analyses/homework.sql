@@ -1,4 +1,4 @@
--- select count(*) from {{ ref('fct_monthly_zone_revenue')}}
+-- select count(*) from {{ ref('fct_monthly_zone_revenue')}};
 
 -- select 
 --     pickup_zone,
@@ -7,7 +7,7 @@
 -- where service_type = 'Green' and extract(year from revenue_month) = 2020
 -- group by pickup_zone
 -- order by total desc
--- limit 1
+-- limit 1;
 
 select 
     service_type,
@@ -16,4 +16,4 @@ from {{ ref('fct_monthly_zone_revenue')}}
 where service_type = 'Green' 
     and extract(year from revenue_month) = 2019
     and extract(month from revenue_month) = 10
-group by service_type
+group by service_type;

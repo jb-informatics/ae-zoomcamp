@@ -10,4 +10,5 @@ sources:
       - name: yellow_tripdata_2020
       - name: green_tripdata_2019
       - name: green_tripdata_2020
+      - name: fhv_tripdata_2019
   

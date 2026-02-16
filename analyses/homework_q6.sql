@@ -1,0 +1,3 @@
+# Q6
+select count(*)
+from {{ ref('stg_fhv_tripdata')}}
